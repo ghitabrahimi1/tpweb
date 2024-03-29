@@ -1,0 +1,104 @@
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 19px 5px;
+}
+.image:hover{
+    cursor: pointer;
+    width: 400px;
+}
+.aud{
+  opacity: 50%;
+  
+}
+.image5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+.impp{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.imo{
+    width: 200px;
+    height: 200px;
+    opacity: 50%;
+    border-radius: 50%;
+}
+.imi{
+    width: 200px;
+    height: 200px;
+    opacity: 50%;
+    border-radius: 50%;
+}
+h1{
+    color: blueviolet;
+ opacity: 50%;
+}
+h2{
+    color: blueviolet;
+    font-size: 2rem;
+}
+h3{
+    color: blueviolet;
+    font-weight: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+}
+.premier{
+    text-align: center;
+}
+.deuxieme{
+    margin-left: 20px;
+}
+.troisieme{
+    margin-left: 500px;
+}
+.quatrieme{
+    margin-left: 20px;
+}
+.cinqieme{
+    margin-left: 20px;
+}
+.premier:hover
+{
+    cursor: grab;
+    text-align: center;
+}
+.liste{
+    display: flex;
+    flex-direction: row;
+}
+.divo{
+    display: flex;
+    flex-direction: column;
+   flex-wrap: wrap;
+   background-color: red;
+
+}
+ul{
+    gap: 150px;
+}
+li:hover{
+    cursor: pointer;
+    color: blue;
+}
+@media screen and (max-width: 400px) {
+    .deuxieme {
+        color: green;
+    }
+}
+@media screen and (min-width:400px)and (max-width:850px){
+    .deuxieme{
+        color: burlywood;
+    }
+    
+}
